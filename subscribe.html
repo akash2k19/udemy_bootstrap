@@ -47,12 +47,12 @@
                 <p class="lead">To get important new and information about our great product <br> Subscribe below and get some fantastic pre launch deals!</p>
             </div>
             <div class="c-form">
-                <form action="" method="post" enctype="multipart/form-data">
+                <form action="contact.php" method="post" enctype="multipart/form-data">
                    <div class="form-group">                       
-                       <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                       <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
                    </div>
                    <div class="form-group">                       
-                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Best Email">
+                       <input  name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Best Email">
                    </div>
                    <button type="submit" class="btn btn-primary">Subscribe</button>
                </form>
@@ -69,37 +69,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("Dec 25, 2018 12:00:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("demo").innerHTML = days + "  " + hours + " "
-      + minutes + " " + seconds + " ";
-
-      // If the count down is finished, write some text 
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-    </script>
-
     
 </body>
 </html>
