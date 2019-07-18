@@ -1,0 +1,91 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 200px 50px;
+  background-image: url(../img/hr.jpg);
+  background-position:cover;
+}
+
+header h1 {
+    font-size:50px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+header i {
+    font-size:50px;
+    padding:15px;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:hover {
+    color: #888;
+}
+
+section {
+  padding: 100px 0;
+}
+
+h2 {
+    font-size:35px;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding-bottom:30px;
+}
+
+/* Buttons */
+.btn-dark {
+    padding: 10px;    
+    width: 200px;
+    transition-duration:0.75s ease;
+    margin-top:30px;
+}
+
+.btn-dark:hover {
+    background:#888;
+    border-color:#888;
+}
+
+.btn-light {
+    padding: 10px;    
+    width: 200px;
+    transition-duration:0.75s ease;
+    margin-top:30px;
+}
+
+.btn-light:hover {
+    background:#888;
+    border-color:#888;
+    color:#fff;
+}
+
+#education {
+    background-image:url(../img/ptn.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+#contact {
+    background:#222;
+}
+
+#contact i {    
+    font-size: 35px;
+    padding-right: 15px;
+}
+
+#contact i:hover {    
+    color:#888;
+}
+
+#contact a {
+    color:#fff ;
+}
+
+
